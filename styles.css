@@ -68,3 +68,66 @@
     padding-top: 6.6rem;
     
 }
+/*main section start*/
+/*our plant section*/
+.our-plants{
+    margin-top: 7.5rem;
+}
+.our-plants-title{
+text-align: center;
+}
+.our-plants-title h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.our-plants-title span{
+    color: var(--font-secondary);
+}
+.our-plants-title p{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-right: 7.87rem;
+    padding-left: 7.87rem;
+}
+
+/*our plants cards section start*/
+.our-plants-cards{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card{
+    max-width: 16.875rem;
+    max-height: 30.32rem;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+
+
+
+}
+.card p{
+font-weight: 700;
+font-size: 22px;
+text-align: center;
+padding-top: .5rem;
+
+
+}
+.card button{
+    height: 50px;
+    width: 270px;
+    
+    background-color: var(--font-secondary);
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: 800;
+    
+}
