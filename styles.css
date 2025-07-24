@@ -1,0 +1,70 @@
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*shared styles*/
+.container{
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+:root{
+    --font-initial:#8987A1;
+    --font-secondary:#E95A08;
+    --font-tartiary:black;
+    
+}
+/*header section*/
+/*logo section*/
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: auto;
+    width: 100%;
+    margin-top: 1rem;
+}
+.navbar{
+    display: flex;
+    gap: 1rem;
+    font-size: 16px;
+    
+}
+.navbar span{
+    font-weight: 700;
+}
+.navbar a{
+    text-decoration: none;
+    color: var(--font-tartiary);
+}
+/*banner section*/
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    margin-top: 7.5rem;
+}
+.banner-title{
+    padding-top: 10.25rem;
+    
+}
+.banner-title h1{
+    font-size: 4rem;
+    padding-bottom: .81rem;
+}
+.banner-title p{
+    font-size: 1.37rem;
+}
+.banner-title span{
+    color: var(--font-secondary);
+
+}
+.banner-section img{
+    padding-top: 6.6rem;
+    
+}
