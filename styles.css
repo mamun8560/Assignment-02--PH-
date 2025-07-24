@@ -97,6 +97,9 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    row-gap: 30px;
+    
+    
 }
 .card{
     max-width: 16.875rem;
@@ -130,4 +133,49 @@ padding-top: .5rem;
     font-size: 16px;
     font-weight: 800;
     
+}
+/*flower and plants lover section start*/
+.flower-lover-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top:13.25rem ;
+    
+}
+.flower-shop{
+    width: 50%;
+    z-index: 1;
+
+}
+.guranteed-content{
+    position: relative;
+}
+.trusted-badge{
+    position: absolute;
+    top: -150px;
+    left: 350px;
+    
+}
+.trusted-badge img{
+    height: 18.5rem;
+    width: 18.5rem;
+    z-index: 2;
+}
+
+.flower-content{
+    width: 50%;
+
+} 
+.flower-lover-section ul{
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 70px;
+}
+.flower-lover-section ul li{
+    padding-top: 20px;
+    padding-left: -5px;
+}
+.flower-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 30px;
 }
