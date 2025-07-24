@@ -295,4 +295,51 @@
     display: flex;
     margin-left:none;
     margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*footer start*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 6.9rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.logo-asset{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.logo-asset p{
+    font-size: 22px;
+    font-weight:400;
+    max-width: 23rem;
+}
+.link-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 7rem;
+    row-gap: 2rem;
+}
+.link-div a{
+    text-decoration: none;
+    color: var(--font-initial);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.logo-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    height: 36px;
+    width: 36px;
+    align-items: center;
+
 }
