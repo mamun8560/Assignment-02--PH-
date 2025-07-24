@@ -300,9 +300,9 @@
 
 /*footer start*/
 .footer {
-  display: flex;
-  justify-content: space-around;
-  column-gap: 6.9rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 6rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
