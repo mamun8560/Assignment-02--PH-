@@ -212,6 +212,7 @@
 .per-h2 a {
   color: white;
   font-weight: 900;
+  
 }
 .percent,
 .per-title {
@@ -241,6 +242,7 @@
   transform: translateX(-50%);
   left: 30%;
   transform: translateY(-30%);
+  
 }
 
 .first-card {
