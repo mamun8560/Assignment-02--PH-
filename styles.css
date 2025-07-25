@@ -461,18 +461,24 @@
     height: 3rem;
     width: 13rem;
     padding: 8px 20px 8px 20px;
+    
   }
   .join-section h1 {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  position: static;
-  transform: none;
-
+  font-size: 20px;
+  
+  
+  
 }
   .join-section button {
     height: 3rem;
     width: 6.5rem;
   }
+  .join-section{
+    background-size: 100% 100%;
+    padding: 10rem 10rem;
+  }
+  
+
   .footer {
     display: block;
     column-gap: 6.9rem;
